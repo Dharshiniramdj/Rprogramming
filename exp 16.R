@@ -1,0 +1,7 @@
+data("USArrests")
+summary(USArrests)
+which.max(USArrests$Rape)
+max(USArrests$Murder)
+min(USArrests$Murder)
+cor(USArrests)
+hist(USArrests$Murder)
